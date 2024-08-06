@@ -1,0 +1,94 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<head>
+	    <title>Login</title>
+		<link href="http://marine.copernicus.eu/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<!-- link rel="icon" type="image/png" href="http://myo-wp.techworks.ie/devel/templates/myocean/favicon.png" /-->>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+		
+		<link rel="stylesheet" type="text/css" href="/cas/newCss/css/myocean/screen/content.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/cas/newCss/css/myocean/screen/content_cc.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/cas/newCss/css/myocean/screen/patch_content_cc.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="/cas/newCss/css/cssmanager.php?version=4.0.2-1288885946&amp;files=/cas/newCss/css/myocean/print/print_003.css" media="print" />
+		
+	    <!--[if gte IE 6]><style type="text/css" media="screen">@import 'css/ie_cas.css';</style><![endif]-->
+	    <script type="text/javascript" src="js/common_rosters.js"></script>
+		<style type="text/css">
+input.submit{cursor:pointer}
+</style>
+	</head>
+	
+	<body id="cas"  class="claro" onload="init();" >
+
+	
+	
+		<div id="white_background_inner_page" style="height:105px;"></div>
+		<div id="col3_content" class="clearfix">
+		
+
+			<img src="/css/myocean/print/images/logo_myocean_print.png" width="1" height="1" align="left" id="logoPrint" alt="" />
+			<div id="breadcrumb">
+				<a href="http://marine.copernicus.eu/">Home</a> &gt; Login
+			</div>
+
+			
+			
+			<h1>Welcome to the CMEMS Data Access Portal</h1>
+			<br/>
+			<p>Fill your login/password and click on <strong>Login</strong> to download data. If you are not registred yet click on <a href="http://marine.copernicus.eu/web/56-user-registration-form.php" target="_parent">Register</a></p>
+            <p>If you have trouble logging in, make sure your browser is set to accept cookies.</p>
+            <br/>
+	
+	
+	
+	
+			<form id="authentification" name="com-login" class="fm-v clearfix" action="/cas/login;jsessionid=A2EFC655F87A222C2861C0AC556EB4DD?service=http://nrt.cmems-du.eu/thredds/ncss/global-analysis-forecast-wav-001-027?var=VHM0&amp;longitude=-7.42&amp;latitude=55.3&amp;disableProjSubset=on&amp;horizStride=1&amp;time_start=2022-01-01T03%3A00%3A00Z&amp;time_end=2022-11-03T00%3A00%3A00Z&amp;accept=csv" method="post">
+
+			    
+					<fieldset class="input">
+					
+						<label for="username">Username</label>
+						<input id="username" name="username" class="required" tabindex="1" accesskey="i" type="text" value="" size="25" autocomplete="false"/><br />
+						
+						<label for="password">Password</label>
+						<input id="password" name="password" class="required" tabindex="2" accesskey="m" type="password" value="" size="25" autocomplete="off"/><br />
+
+						<input type="hidden" name="lt" value="_cABB45BB9-0AF1-55C9-5AC5-68D1DEF1BA17_k548E36F0-143C-F995-16F4-2EDF566C0650" />
+						<input type="hidden" name="_eventId" value="submit" />
+                      
+						<div class="authentification_retrait_right">
+							<a href="http://marine.copernicus.eu/web/56-user-registration-form.php" target="_parent"><img src="/cas/newCss/css/myocean/screen/images/bt_register.gif" alt="Register" /></a>
+							<input class="submit" name="submit" accesskey="l" value=" " type="submit" alt="Login" />
+						</div>
+
+					</fieldset>
+               
+	            <p>
+					<br/><br/>
+					<i>- You are registered but have forgotten your login/password?</i><br/>
+					<i>- Any question?</i><br/>
+					<b>&rArr; CMEMS Service Desk : </b><A HREF="mailto:servicedesk.cmems@mercator-ocean.eu"><b>servicedesk.cmems@mercator-ocean.eu</b></A>
+				</p>
+
+			</form>	
+				
+				<h3>Thank you for using CMEMS products</h3>
+				<br/>
+	            <div id="sidebar">
+	                <i>For security reasons, please Exit your web browser when you quit services requiring authentication!</i>
+	            </div>
+        	
+		</div>
+	    
+	</body>
+</html>
+

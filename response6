@@ -1,0 +1,5 @@
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Content-length: 0
+Location: https://nrt.cmems-du.eu/thredds/ncss/global-analysis-forecast-wav-001-027?var=VHM0&longitude=-7.42&latitude=55.3&disableProjSubset=off&horizStride=1&time_start=2022-10-01T03%3A00%3A00Z&time_end=2022-11-03T00%3A00%3A00Z&accept=csv
+

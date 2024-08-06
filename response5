@@ -1,0 +1,16 @@
+HTTP/1.1 302 Found
+Date: Fri, 28 Oct 2022 02:17:24 GMT
+Server: Apache
+Access-Control-Allow-Origin: *
+Set-Cookie: MOD_AUTH_CAS=815002807dee312ae2d66432cff3b0bb;Path=/thredds/ncss/; HttpOnly
+Location: http://nrt.cmems-du.eu/thredds/ncss/global-analysis-forecast-wav-001-027?var=VHM0&longitude=-7.42&latitude=55.3&disableProjSubset=off&horizStride=1&time_start=2022-10-01T03%3A00%3A00Z&time_end=2022-11-03T00%3A00%3A00Z&accept=csv
+Content-Length: 440
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://nrt.cmems-du.eu/thredds/ncss/global-analysis-forecast-wav-001-027?var=VHM0&amp;longitude=-7.42&amp;latitude=55.3&amp;disableProjSubset=off&amp;horizStride=1&amp;time_start=2022-10-01T03%3A00%3A00Z&amp;time_end=2022-11-03T00%3A00%3A00Z&amp;accept=csv">here</a>.</p>
+</body></html>

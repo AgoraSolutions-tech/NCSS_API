@@ -1,0 +1,6 @@
+HTTP/1.0 302 Moved Temporarily
+Location: https://cmems-cas.cls.fr/cas/login
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
